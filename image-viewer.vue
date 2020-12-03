@@ -1,39 +1,39 @@
 <template>
     <transition name="viewer-fade">
-        <div tabindex="-1" ref="el-image-viewer__wrapper" class="el-image-viewer__wrapper" :style="{ 'z-index': zIndex }">
-            <div @click="onClickMask" class="el-image-viewer__mask"></div>
+        <div tabindex="-1" ref="lcy-image-viewer__wrapper" class="lcy-image-viewer__wrapper" :style="{ 'z-index': zIndex }">
+            <div @click="onClickMask" class="lcy-image-viewer__mask"></div>
             <!-- CLOSE -->
-            <span class="el-image-viewer__btn el-image-viewer__close" @click="hide">
+            <span class="lcy-image-viewer__btn lcy-image-viewer__close" @click="hide">
                 <i class="imageviewer iv-circle-close"></i>
             </span>
             <!-- ARROW -->
             <template v-if="!isSingle">
-                <span class="el-image-viewer__btn el-image-viewer__prev" :class="{ 'is-disabled': !infinite && isFirst }" @click="prev">
+                <span class="lcy-image-viewer__btn lcy-image-viewer__prev" :class="{ 'is-disabled': !infinite && isFirst }" @click="prev">
                     <i class="imageviewer iv-arrow-left" />
                 </span>
-                <span class="el-image-viewer__btn el-image-viewer__next" :class="{ 'is-disabled': !infinite && isLast }" @click="next">
+                <span class="lcy-image-viewer__btn lcy-image-viewer__next" :class="{ 'is-disabled': !infinite && isLast }" @click="next">
                     <i class="imageviewer iv-arrow-right" />
                 </span>
             </template>
             <!-- ACTIONS -->
-            <div class="el-image-viewer__btn el-image-viewer__actions">
-                <div class="el-image-viewer__actions__inner">
+            <div class="lcy-image-viewer__btn lcy-image-viewer__actions">
+                <div class="lcy-image-viewer__actions__inner">
                     <i class="imageviewer iv-zoom-out" @click="handleActions('zoomOut')"></i>
                     <i class="imageviewer iv-zoom-in" @click="handleActions('zoomIn')"></i>
-                    <i class="el-image-viewer__actions__divider"></i>
+                    <i class="lcy-image-viewer__actions__divider"></i>
                     <i :class="mode.icon" @click="toggleMode"></i>
-                    <i class="el-image-viewer__actions__divider"></i>
+                    <i class="lcy-image-viewer__actions__divider"></i>
                     <i class="imageviewer iv-refresh-left" @click="handleActions('anticlocelise')"></i>
                     <i class="imageviewer iv-refresh-right" @click="handleActions('clocelise')"></i>
                 </div>
             </div>
             <!-- CANVAS -->
-            <div class="el-image-viewer__canvas">
+            <div class="lcy-image-viewer__canvas">
                 <template v-for="(url, i) in urlList">
                     <img
                         v-if="i === index"
                         ref="img"
-                        class="el-image-viewer__img"
+                        class="lcy-image-viewer__img"
                         :key="url"
                         :src="currentImg"
                         :style="imgStyle"
@@ -292,7 +292,7 @@ export default {
         this.deviceSupportInstall()
         // add tabindex then wrapper can be focusable via Javascript
         // focus wrapper so arrow key can't cause inner scroll behavior underneath
-        this.$refs['el-image-viewer__wrapper'].focus()
+        this.$refs['lcy-image-viewer__wrapper'].focus()
     }
 }
 </script>
