@@ -1,0 +1,72 @@
+{
+  "id": "2244642",
+  "name": "image-viewer",
+  "font_family": "imageviewer",
+  "css_prefix_text": "iv",
+  "description": "image-viewer",
+  "glyphs": [
+    {
+      "icon_id": "13486782",
+      "name": "原始",
+      "font_class": "c-scale-to-original",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "16850073",
+      "name": "屏幕_全屏",
+      "font_class": "full-screen",
+      "unicode": "e7ab",
+      "unicode_decimal": 59307
+    },
+    {
+      "icon_id": "18601129",
+      "name": "刷新",
+      "font_class": "refresh-left",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "1274780",
+      "name": "刷新",
+      "font_class": "refresh-right",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "11988472",
+      "name": "放大缩小_X",
+      "font_class": "zoom-in",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "14053062",
+      "name": "放大缩小_Y",
+      "font_class": "zoom-out",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "8403369",
+      "name": "关  闭",
+      "font_class": "circle-close",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "18600986",
+      "name": "方向 - 左",
+      "font_class": "arrow-left",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "18601140",
+      "name": "方向 - 左",
+      "font_class": "arrow-right",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

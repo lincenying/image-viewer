@@ -1,0 +1,25 @@
+{
+  "name": "image-viewer",
+  "version": "1.0.0",
+  "description": "image viewer",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lincenying/image-viewer.git"
+  },
+  "keywords": [
+    "image",
+    "viewer"
+  ],
+  "author": "LinCenYing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lincenying/image-viewer/issues"
+  },
+  "homepage": "https://github.com/lincenying/image-viewer#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
