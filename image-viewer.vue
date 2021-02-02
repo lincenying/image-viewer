@@ -296,7 +296,3 @@ export default {
     }
 }
 </script>
-<style>
-@import url('./fonts/iconfont.css');
-@import url('./image.css');
-</style>
