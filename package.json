@@ -1,6 +1,6 @@
 {
   "name": "lcy-image-viewer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "image viewer",
   "main": "index.js",
   "repository": {
